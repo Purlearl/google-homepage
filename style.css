@@ -1,3 +1,15 @@
-p {
-    color: red;
+#top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.top-nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 13px;
+
+}
+li{
+    margin:10px;
 }
