@@ -3,6 +3,7 @@
     <head>
         <link href="style.css" rel="stylesheet">
     </head>
+    <body></body>
     <div id="top-nav">
         <ul class="top-nav-list">
             <li>About</li>
@@ -15,22 +16,20 @@
             <li>[symbol2]</li>
         </ul>
     </div>
-    <body>
+    <main>
         <div id="logo">
             <h1><img src= "images/googlelogo_color_272x92dp.png"></h1>
         </div>
-        <div id="search-bar">
-
-        </div>
+        <form id="search-bar" action:"">
+            <input id="search-bar" type="search" name="search-query">     
+        </form>
         <div id="search-buttons">
-            <label class="search-button">
-                <p>Search</p>
-            </label>
-            <label class="search-button">
-                <p>I'm Feeling Lucky</p>
-            </label>
-        </div>
-    </body>
+            <button class="search-button" id="search" type="submit">
+                Search</button>
+            <button class="search-button" id="feeling-lucky" type="submit">
+                I'm Feeling Lucky</button>
+            </div>
+    </main>
     <footer id="bottom-nav">
         <ul>
             <li>Advertising</li>
@@ -38,4 +37,5 @@
             <li>How Search Works</li>
         </ul>
     </footer>
+</body>
 </html>
