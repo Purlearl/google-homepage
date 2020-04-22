@@ -1,0 +1,1 @@
+For this project, I'll be recreating the google homepage in html/css. I'm expecting to run into difficulty with positioning elements, but I think that creating the google logo and button design will work well
