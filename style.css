@@ -100,3 +100,20 @@ main{
     
     
 }
+#bottom-nav{
+    position: fixed;
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between;
+    bottom:0px;
+    width:100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-size:13px;
+}
+
+.footer-list{
+    display:flex;
+    flex-direction: row;
+
+}
